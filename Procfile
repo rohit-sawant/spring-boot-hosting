@@ -1,1 +1,1 @@
-web:java $JAVA_OPTS -cp target/classes:target/dependency/* com/springwalk/sample/Testdeploy1Application
+web: java -Dserver.port=$PORT -jar server-sample-1.0-SNAPSHOT.jar
